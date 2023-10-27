@@ -2,7 +2,7 @@ let title = document.getElementById("title");
 
 let request = new XMLHttpRequest();
 
-request.open("GET", "https://jsonplaceholder.typicode.com/todos");
+request.open("GET", "https://jsonplaceholder.typicode.com/todos?userId=1");
 
 request.responseType = "json";
 request.send();
