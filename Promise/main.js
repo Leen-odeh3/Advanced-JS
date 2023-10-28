@@ -13,7 +13,7 @@
 //     }, 1000);
 // }, 1000);
 
-//using promise => promises Chaining
+//using promise 
 
 let p = new Promise(function (resolve, reject) {
   setTimeout(() => {
